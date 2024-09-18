@@ -9,6 +9,7 @@ from pyrit.prompt_target.prompt_chat_target.azure_ml_chat_target import AzureMLC
 from pyrit.prompt_target.prompt_chat_target.openai_chat_target import AzureOpenAITextChatTarget, OpenAIChatTarget
 from pyrit.prompt_target.prompt_chat_target.azure_openai_gptv_chat_target import AzureOpenAIGPTVChatTarget
 from pyrit.prompt_target.prompt_chat_target.azure_openai_gpto_chat_target import AzureOpenAIGPT4OChatTarget
+from pyrit.prompt_target.prompt_chat_target.m365_copilot_chat_target import M365CopilotChatTarget
 from pyrit.prompt_target.gandalf_target import GandalfTarget, GandalfLevel
 from pyrit.prompt_target.crucible_target import CrucibleTarget
 from pyrit.prompt_target.text_target import TextTarget
@@ -18,7 +19,6 @@ from pyrit.prompt_target.prompt_chat_target.ollama_chat_target import OllamaChat
 from pyrit.prompt_target.azure_openai_completion_target import AzureOpenAICompletionTarget
 from pyrit.prompt_target.prompt_shield_target import PromptShieldTarget
 
-
 __all__ = [
     "AzureBlobStorageTarget",
     "AzureMLChatTarget",
@@ -27,6 +27,7 @@ __all__ = [
     "AzureOpenAIGPTVChatTarget",
     "AzureOpenAIGPT4OChatTarget",
     "AzureTTSTarget",
+    "M365CopilotChatTarget",
     "CrucibleTarget",
     "GandalfTarget",
     "GandalfLevel",
